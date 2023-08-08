@@ -432,7 +432,7 @@ box-shadow: 0 0 5px #0ef,
     content:"75%";
 }
 .progress-line.javascript span::after{
-    content:"60%";
+    content:"50%";
 }
 .progress-line.bootstrap span::after{
     content:"70%";
@@ -444,7 +444,7 @@ box-shadow: 0 0 5px #0ef,
     content:"80%";
 }
 .progress-line.mysql span::after{
-    content:"70%";
+    content:"60%";
 }
 .progress-line span::before{
     content: "";
