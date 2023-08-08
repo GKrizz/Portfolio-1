@@ -552,7 +552,7 @@ box-shadow: 0 0 5px #0ef,
 .talent{
     position: absolute;
     display: flex;
- top:2066px;
+ top:2140px;
  margin-left: 600px;
 }
 .main-text{
@@ -767,4 +767,12 @@ box-shadow: 0 0 5px #0ef,
     font-size: 20px;
     padding: 10px;
     border-radius: 0.5rem;
+}
+#pytho{
+    position:absolute;
+    bottom:-1090px;
+}
+#php{
+    position: absolute;
+    bottom:-1092px;
 }
