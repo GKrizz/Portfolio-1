@@ -8,3 +8,4 @@ var typed =new Typed(".text",{
 
 
  });
+ 

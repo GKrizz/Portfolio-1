@@ -6,7 +6,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+<link rel="icon" type="image/x-icon" href="images\Gowri K.jpeg">
    
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
@@ -299,15 +299,16 @@
 
 
     <div class="contact-form">
-        <form action="">
-            <input type="" placeholder="Enter Your Name" required>
-            <input type="email" placeholder="Enter Your Email" required>
-            <input type="" placeholder="Enter Your Subject">
-            <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message"></textarea>
-        <input type="submit" value="submit" class="send">
+        <form name="contact">
+            <input type="text"  name="Name" placeholder="Enter Your Name" required>
+            <input type="email"  name="Email" placeholder="Enter Your Email" required>
+            <input type="text" name="Subject" placeholder="Enter Your Subject">
+            <textarea name="Message" id="" cols="40" rows="10" placeholder="Enter Your Message"></textarea>
+        <button type="submit" value="submit" class="send" onclick="alert('message sent successfully')"> submit </button>
         
     
         </form>
+        
     </div>
 </section>
 <div class="last-text">
@@ -317,7 +318,23 @@
 
 <script src="main.js"></script>
 
-
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyvYXs0gNQYd2L5U7HX5AKqJJ9IlOyaaeUdlEsx3PiYLXcl4a6I1WTaTWyhmaGyQJZLOw/exec'
+    const form = document.forms['contact']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+})
+</script>
     
 </body>
 </html>
