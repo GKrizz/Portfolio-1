@@ -839,3 +839,35 @@ box-shadow: 0 0 5px #0ef,
     border-radius: 0.5rem;
 }
 
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 15px;
+}
+.list{
+    display: flex;
+    gap: 25px;
+}
+label i{
+    color: white;
+}
+#toggler, label{
+    display: none;
+}
+@media screen  and (max-width: 650px){
+      .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+      }
+      label{
+        display: inline-flex;
+      }
+      #toggler:checked~.menu{
+        max-height: 100%;
+      }
+     
+}
