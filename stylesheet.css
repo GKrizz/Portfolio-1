@@ -624,7 +624,7 @@ transition: var(--transition);
     justify-content: space-between;
  }
  header{
-    height: 90vh;
+    height: 110vh;
  }
  .header-right{
     height: 280px;
