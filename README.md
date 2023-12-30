@@ -1,3 +1,5 @@
+<img width="943" alt="image" src="https://github.com/K-Gowri/Profile/assets/109598198/e9e94114-f365-4de7-8c86-6b05a0fcf040">
+
 <p>Leveraging my expertise in frontenddevelopment , I have carefully crafted each element of the  portfolio to be dynamic and responsive, ensuring optimal userexperience across various devices and  screen sizes.</p>
  <img src="images/port.png" alt="" >
 <p>I used  JavaScript to ensure a seamless  userform interaction while also improving functionality and datamanagement. 
