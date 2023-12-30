@@ -1,9 +1,7 @@
+<p>Leveraging my expertise in frontenddevelopment , I have carefully crafted each element of the  portfolio to be dynamic and responsive, ensuring optimal userexperience across various devices and  screen sizes.</p>
+ <img src="images/port.png" alt="" >
+<p>I used  JavaScript to ensure a seamless  userform interaction while also improving functionality and datamanagement. 
+💡 I have specifically created  JavaScriptfunctions that permit the incorporation of anExcelspreadsheet for effective  usermessage  storage. This not only demonstrates my mastery of sophisticated  programming hashtag#techniques, but also my dedication to producing a usercentric experience.</p>
 
-<p>Leveraging my expertise in hashtag frontenddevelopment , I have carefully crafted each element of the hashtag#portfolio to be hashtag dynamic and hashtag responsive, ensuring optimal hashtag#userexperience across various devices and hashtag screen sizes.</p>
-<br>
- <img src="images\port.png" alt="" >
-<p>I used hashtag JavaScript to ensure a seamless hashtag userforminteraction while also improving hashtag#functionality and hashtag#datamanagement. 
-💡 I have specifically created hashtag JavaScriptfunctions that permit the incorporation of an hashtag Excelspreadsheet for effective hashtag#usermessage hashtag#storage. This not only demonstrates my mastery of sophisticated hashtag programming hashtag#techniques, but also my dedication to producing a hashtag usercentric experience.</p>
-
-I'm setting up my hashtag Netlify hashtag webpage here for hashtag additional information.
+I'm setting up my  Netlify  webpage here for  additional information.
 https://soft-choux-59fccb.netlify.app/
