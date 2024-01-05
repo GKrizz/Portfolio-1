@@ -1,4 +1,4 @@
-![Alt text](image.png)
+
 
 <p>Leveraging my expertise in frontenddevelopment , I have carefully crafted each element of the  portfolio to be dynamic and responsive, ensuring optimal userexperience across various devices and  screen sizes.</p>
  <img src="images/port.png" alt="" >
